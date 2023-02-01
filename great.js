@@ -1,4 +1,5 @@
 const greet = (name) => {
-    return `Hello, ${name}! How are you today?`;
-  };
-  console.log(greet("Hassan"));
+  let greeting= "Hello! "+ name + " how are you";  
+  return greeting;
+}
+console.log(greet("Hassan"));
